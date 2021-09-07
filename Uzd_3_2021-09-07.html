@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      header {
+        background-color: grey;
+        height: 50px;
+        margin: 1%;
+      }
+      article {
+        background-color: grey;
+        margin: 1%;
+        height: 200px;
+      }
+      footer {
+        background-color: grey;
+        height: 50px;
+        margin: 1%;
+      }
+      ul {
+          list-style: none;
+      }
+      li::before {content: "- "}
+    </style>
+  </head>
+  <body>
+    <header>
+      <a href="mygtukas.html" style = "padding: 15px; display: inline-block; font-size: 20px;">Logo</a>
+      <nav style="float: right; padding: 15px; font-size: 20px;">
+        <a href="mygtukas.html">Menu item 1</a>
+        <a href="mygtukas.html">Menu item 2</a>
+        <a href="mygtukas.html">Menu item 3</a>
+      </nav>
+    </header>
+    <article> 
+        <div style = "margin-top: 0px;"> <!-- Kaip pastumti  tik tekstą žemyn?-->
+            <p style="text-align: center; padding-top: 20px;">SUPERHEADLINE</p>
+            <p style="text-align: center; width: 500px; margin-left: auto;
+            margin-right: auto;">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Facere sapientefsafasfasfasfasfasfasfasfLorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Facere sapientefsafasfasfasfasfasfasfasf
+            </p>
+        </div>
+    </article>
+    <article>
+      <p style= "display: block; float: left; word-wrap: break-word; width: 500px; padding-left: 50px; padding-top: 30px;">
+        Headline
+        <br /><br />
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus,
+        culpa voluptates qui optio odit aliquid excepturi perferendis impedit a
+        nulla. Aliquid accusantium natus, blanditiis amet repellat eum libero
+        voluptates veritatis.
+      </p>
+      <img style= "display: inline-block; float:right; padding-top: 30px; padding-right: 200px;" src="Screenshot_2021-09-07_183216.png" alt="" />
+    </article>
+    <article>
+      <img style= "display: inline-block; padding-top: 30px; padding-left: 100px;" src="Screenshot_2021-09-07_183216.png" alt="" />
+      <p style= "display: inline-block;">
+          <ul style= "display: inline-block; float: right; padding-right:400px;">
+              <p>Headline</p>
+              <li>Lorem Ipsum is simply dummy text of the</li>
+              <li>Lorem Ipsum is simply dummy text of the</li>
+              <li>Lorem Ipsum is simply dummy text of the</li>
+          </ul>
+      </p>
+    </article>
+    <footer>
+        <div style="margin: auto;
+        padding: 10px; font-size: 20px;">
+            <a href="mygtukas.html">Menu item 1</a>
+            <a href="mygtukas.html">Menu item 2</a>
+            <a href="mygtukas.html">Menu item 3</a>
+        </div>
+    </footer>
+  </body>
+</html>
