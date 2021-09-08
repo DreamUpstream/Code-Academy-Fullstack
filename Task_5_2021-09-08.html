@@ -25,10 +25,13 @@
         border-radius: 25px;
         border: 2px solid #7ed602;
       }
+      label {
+        margin: 5px;
+      }
     </style>
   </head>
   <body>
-    <form action="/action_page.php">
+    <form method="">
       <label for="Vardas">Vardas</label><br />
       <input type="text" id="Vardas" name="Vardas" /><br />
       <label for="Data">Gimimo metai:</label><br />
@@ -40,11 +43,13 @@
       <label for="Emailas">El. pastas:</label><br />
       <input type="email" id="Emailas" name="Emailas" /><br />
       <label for="PSW">Slaptazodis:</label><br />
-      <input type="password" id="PSW" name="PSW" /><br />
-      <label for="Naujienos">Ar norite gauti naujienas?:</label><br />
-      <input type="radio" id="Naujienos" name="Naujienos" />Taip<br />
-      <input type="radio" id="Naujienos" name="Naujienos" />Man patinka spamas,
-      taip<br />
+      <input type="password" id="PSW" name="PSW" /><br /><br />
+      <input
+        type="checkbox"
+        id="Naujienos"
+        name="Naujienos"
+        checked="checked"
+      />Noriu gauti naujienas ir slaptus pasiūlymus<br />
       <button class="mygtukas">Issaugoti</button>
     </form>
   </body>
