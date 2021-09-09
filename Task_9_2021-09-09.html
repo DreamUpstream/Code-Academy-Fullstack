@@ -45,22 +45,37 @@
         font-size: 30px;
         margin-top: -50px;
         margin-left: -80px;
-        animation: 0.8s shake infinite alternate;
+        animation: 1.5s shake infinite alternate;
       }
       @keyframes shake {
         0% {
-          transform: skewX(-15deg);
+          transform: skewX(-30deg);
         }
         5% {
-          transform: skewX(15deg);
+          transform: skewX(30deg);
         }
         10% {
-          transform: skewX(-15deg);
+          transform: skewX(-30deg);
         }
         15% {
-          transform: skewX(15deg);
+          transform: skewX(30deg);
         }
         20% {
+          transform: skewX(0deg);
+        }
+        30% {
+          transform: skewX(-30deg);
+        }
+        50% {
+          transform: skewX(30deg);
+        }
+        60% {
+          transform: skewX(-30deg);
+        }
+        80% {
+          transform: skewX(30deg);
+        }
+        90% {
           transform: skewX(0deg);
         }
         100% {
