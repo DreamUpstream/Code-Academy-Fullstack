@@ -4,11 +4,11 @@
     <style>
       html {
         background-color: red;
-        animation-name: example;
+        animation-name: animation-frames;
         animation-duration: 12s;
       }
 
-      @keyframes example {
+      @keyframes animation-frames {
         0% {
           background-color: rgb(255, 230, 91);
         }
@@ -45,6 +45,27 @@
         font-size: 30px;
         margin-top: -50px;
         margin-left: -80px;
+        animation: 0.8s shake infinite alternate;
+      }
+      @keyframes shake {
+        0% {
+          transform: skewX(-15deg);
+        }
+        5% {
+          transform: skewX(15deg);
+        }
+        10% {
+          transform: skewX(-15deg);
+        }
+        15% {
+          transform: skewX(15deg);
+        }
+        20% {
+          transform: skewX(0deg);
+        }
+        100% {
+          transform: skewX(0deg);
+        }
       }
     </style>
   </head>
