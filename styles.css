@@ -1,0 +1,86 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.backgroundas {
+  background-image: url("https://images.ctfassets.net/lzny33ho1g45/learn-html-css-p-img/12978ef50623cf76538cfe18e1011fc5/file.png?w=1520&fm=jpg&q=30&fit=thumb&h=760");
+
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+
+  height: 100%;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.mygtukai {
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 40%;
+  padding: 20px;
+  text-align: center;
+}
+.mygtukai2 {
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 40%;
+  padding: 20px;
+  margin-top: 15px;
+  text-align: center;
+}
+.issiuntukas {
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(44, 2, 2, 0.4);
+  color: white;
+  position: absolute;
+  font-size: 20px;
+  font-weight: bold;
+  border: 3px solid #000000;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 15%;
+  padding: 10px;
+  margin-top: 15px;
+  text-align: center;
+  font-family: "Fantasy", "Copperplate", monospace;
+}
+.issiuntukas:hover {
+  background-color: red;
+}
+.issiuntukas:focus {
+  background-color: rgb(143, 0, 0);
+}
+legend {
+  background-color: rgb(41, 160, 81);
+  color: white;
+  padding: 5px 10px;
+}
