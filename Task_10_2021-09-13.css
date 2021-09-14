@@ -68,7 +68,7 @@ html {
 .background-border {
   border: 0.5vw solid rgb(204, 204, 204);
   background-color: rgba(0, 0, 0, 0.637);
-  font-size: 2vw;
+  font-size: 1vw;
 }
 .inline-blocks {
   z-index: 2;
@@ -100,6 +100,10 @@ html {
   padding: 10px;
 }
 
+.fontFinal {
+  font-size: 1.2vw;
+}
+
 @media only screen and (max-device-width: 380px) {
   .center-text-border {
     font-size: 4vw;
@@ -115,7 +119,7 @@ html {
   }
   .content {
     flex-direction: column;
-    height: auto;
+    height: ;
   }
   .inlineblock-text {
     padding: 3vw;
