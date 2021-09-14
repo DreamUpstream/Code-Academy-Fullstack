@@ -41,6 +41,7 @@
   border: 5px solid red;
 }
 .hyperspan {
+  display: inline-block;
   width: 100%;
   height: 100%;
 }
