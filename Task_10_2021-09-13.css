@@ -49,6 +49,7 @@ html {
   display: flex;
   justify-content: space-around;
   align-items: stretch;
+  height: 100%;
   background-color: rgb(231, 231, 231);
 }
 
@@ -67,7 +68,7 @@ html {
 .background-border {
   border: 0.5vw solid rgb(204, 204, 204);
   background-color: rgba(0, 0, 0, 0.637);
-  font-size: 1vw;
+  font-size: 2vw;
 }
 .inline-blocks {
   z-index: 2;
@@ -114,6 +115,7 @@ html {
   }
   .content {
     flex-direction: column;
+    height: auto;
   }
   .inlineblock-text {
     padding: 3vw;
