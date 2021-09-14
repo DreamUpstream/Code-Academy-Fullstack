@@ -13,24 +13,26 @@
 
 .second_div {
   padding: 50px;
+  height: 260px;
+  width: 260px;
 }
 
 .third-div {
   width: 45%;
   height: 100px;
   background-color: green;
-  display: inline-block;
 }
 
 .fourth-div {
   height: 250px;
+  display: inline-block;
   background-color: green;
   width: 200px;
   border: 5px solid red;
   background-image: url("https://scontent.fkun1-1.fna.fbcdn.net/v/t1.6435-9/56786135_421029341875765_6319362073264390144_n.jpg?_nc_cat=105&ccb=1-5&_nc_sid=9267fe&_nc_ohc=ndkMrDZJWJkAX_GZjgl&_nc_oc=AQmUgATLJdTePlH399iLM0eF0MZq2s1v6W5LmM0kJ98AaJJwUT25aRKHWMNbQB8ulIM&_nc_ht=scontent.fkun1-1.fna&oh=d25d01ae49b530905817f760f68050ed&oe=6167BF9F");
 }
 .fifth-div {
-  position: relative;
+  display: inline-block;
   height: 50px;
   background-color: orange;
   margin: 40px;
@@ -39,7 +41,6 @@
   border: 5px solid red;
 }
 .hyperspan {
-  position: absolute;
   width: 100%;
   height: 100%;
 }
