@@ -77,6 +77,8 @@ html {
   height: 100%;
   margin: 0.8vw;
   flex-grow: 1;
+  vertical-align: center;
+  line-height: normal;
 }
 
 .even {
@@ -101,7 +103,7 @@ html {
 }
 
 .fontFinal {
-  font-size: 1.2vw;
+  font-size: 1.3vw;
 }
 
 @media only screen and (max-device-width: 380px) {
@@ -115,11 +117,10 @@ html {
     width: 70%;
   }
   .background-border {
-    font-size: 4vw;
+    font-size: 2.5vw;
   }
   .content {
     flex-direction: column;
-    height: ;
   }
   .inlineblock-text {
     padding: 3vw;
