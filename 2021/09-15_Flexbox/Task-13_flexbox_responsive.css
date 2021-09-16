@@ -15,9 +15,7 @@ body {
 .orange {
   height: 15%;
   display: flex;
-  justify-content: space-between;
   flex-wrap: wrap;
-  align-content: space-between;
 }
 .orange > div {
   background-color: orange;
@@ -37,6 +35,7 @@ body {
 .grey > div {
   height: 43%;
   flex-basis: 100%;
+  background-color: grey;
 }
 .blue {
   height: 50%;
@@ -75,6 +74,7 @@ body {
     flex-wrap: wrap;
   }
   .grey > div {
+    background-color: grey;
     height: 43%;
     flex-basis: 49%;
   }
