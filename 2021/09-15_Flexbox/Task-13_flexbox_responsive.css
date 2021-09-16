@@ -4,108 +4,131 @@ body {
   width: 100%;
   margin: 0;
 }
+
 .container {
   height: 100%;
   width: 100%;
 }
+.container > div {
+  margin: 1%;
+}
+.orange {
+  height: 15%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-content: space-between;
+}
 .orange > div {
   background-color: orange;
-  height: 50%;
-  margin: 2%;
-}
-
-.orange {
-  height: 12.5%;
-  margin: 2%;
+  height: 46%;
+  flex-basis: 100%;
 }
 .green {
   background-color: green;
-  height: 12.5%;
-  margin: 4%;
-  margin-bottom: 2%;
-}
-.blue {
-  height: 60%;
-  margin: 2%;
-  margin-bottom: 5%;
-}
-.blue > div {
-  background-color: blue;
-  height: 33%;
-  margin: 2%;
+  height: 15%;
 }
 .grey {
-  height: 60%;
-  margin: 2%;
-  padding-bottom: 8%;
+  height: 22%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 .grey > div {
-  height: 25%;
-  background-color: grey;
-  margin: 2%;
+  height: 43%;
+  flex-basis: 100%;
+}
+.blue {
+  height: 50%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.blue > div {
+  flex-basis: 100%;
+  background-color: blue;
+  height: 30%;
+}
+.mobile-hidden {
+  display: none;
 }
 @media only screen and (min-width: 768px) {
-  .grey {
-    height: 30%;
-    margin: 2%;
-    padding-bottom: 0%;
+  .orange {
+    height: 15%;
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin: 3%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: space-between;
+  }
+  .orange > div {
+    background-color: orange;
+    height: 46%;
+    flex-basis: 100%;
+  }
+  .green {
+    background-color: green;
+    height: 25%;
+  }
+  .grey {
+    height: 22%;
+    display: flex;
+    justify-content: space-between;
     flex-wrap: wrap;
   }
   .grey > div {
-    width: 45%;
-    flex-grow: 2;
-    height: 40%;
-    margin: 1%;
+    height: 43%;
+    flex-basis: 49%;
+  }
+  .blue {
+    height: 30%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .blue > div {
+    flex-basis: 100%;
+    background-color: blue;
+    height: 30%;
+  }
+  .mobile-hidden {
+    display: block;
   }
 }
 @media only screen and (min-width: 1024px) {
+  .mobile-hidden {
+    display: block;
+  }
   .orange {
     height: 12.5%;
-    margin: 2%;
     display: flex;
+    justify-content: space-between;
   }
   .orange > div {
     background-color: orange;
     height: 100%;
-    margin: 2%;
-    flex-grow: 1;
+    flex-basis: 49%;
   }
   .green {
     background-color: green;
-    height: 35%;
-    margin: 4%;
-    margin-bottom: 2%;
+    height: 25%;
   }
   .grey {
-    height: 30%;
-    margin: 2%;
-    padding-bottom: 0%;
+    height: 22%;
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin: 3%;
-    flex-wrap: wrap;
+    justify-content: space-between;
   }
   .grey > div {
-    width: 22%;
-    flex-grow: 2;
-    height: 70%;
-    margin: 1%;
+    height: 100%;
+    flex-basis: 23%;
+    border: 1px solid red;
   }
   .blue {
     height: 30%;
-    margin: 2%;
-    margin-bottom: 5%;
     display: flex;
+    justify-content: space-between;
   }
   .blue > div {
+    /* flex-grow: 1; */
+    flex-basis: 32%;
     background-color: blue;
-    width: 33%;
     height: 100%;
-    margin: 2%;
   }
 }
