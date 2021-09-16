@@ -19,7 +19,7 @@
         width: 100%;
         place-items: center;
         text-align: center;
-        background: linear-gradient(147deg, #f6b323 0%, #f23b26 74%);
+        background: linear-gradient(147deg, #45a11b 0%, #ff1900 74%);
       }
       ::selection {
         color: #fff;
@@ -53,7 +53,8 @@
         flex-wrap: wrap;
       }
       .pagination li {
-        background: #f23b26;
+        background: rgb(219, 117, 0);
+        border-radius: 5px;
         list-style: none;
       }
       .pagination li a {
@@ -63,12 +64,14 @@
         width: 50px;
         font-size: 18px;
         padding-top: 1px;
-        border: 1px solid rgba(0, 0, 0, 0.25);
+        border: 2px solid rgba(0, 0, 0, 0.25);
+        border-radius: 5px;
         border-right-width: 0px;
-        box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.35);
+        box-shadow: inset px 1px 0px 0px rgba(255, 255, 255, 0.35);
       }
       .pagination li:last-child a {
-        border-right-width: 1px;
+        border-radius: 5px;
+        border-right-width: 2px;
       }
       .pagination li a:hover {
         background: rgba(255, 255, 255, 0.2);
@@ -80,7 +83,7 @@
         padding-top: 4px;
         border-left-width: 1px;
         background: rgba(255, 255, 255, 0.15);
-        box-shadow: inset 0px 2px 1px 0px rgba(0, 0, 0, 0.25);
+        box-shadow: inset 0px 1px 5px 0px rgba(0, 0, 0, 0.25);
       }
       .pagination li.icon a {
         min-width: 120px;
