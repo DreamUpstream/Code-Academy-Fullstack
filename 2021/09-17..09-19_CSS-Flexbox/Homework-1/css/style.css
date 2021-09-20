@@ -554,7 +554,6 @@ a:hover {
   a {
   color: #fff;
 }
-
 .indiPhotos {
   object-fit: cover;
   height: 40vh;
@@ -587,11 +586,10 @@ a:hover {
 .mobilenop {
   display: none;
 }
-
 @media only screen and (min-width: 768px) {
   .indiPhotos {
     width: 30%;
-    height: 45vh;
+    height: 44vh;
   }
   .photos {
     padding-top: 20%;
