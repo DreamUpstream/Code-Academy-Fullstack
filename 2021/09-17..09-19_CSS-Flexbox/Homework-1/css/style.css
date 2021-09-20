@@ -584,6 +584,10 @@ a:hover {
   margin-right: 20px;
 }
 
+.mobilenop {
+  display: none;
+}
+
 @media only screen and (min-width: 768px) {
   .indiPhotos {
     width: 30%;
@@ -592,6 +596,13 @@ a:hover {
   .photos {
     padding-top: 20%;
     padding-right: 0%;
+  }
+
+  .mobilenop {
+    display: block;
+  }
+  .mobileyep {
+    display: none;
   }
 }
 
@@ -615,4 +626,6 @@ a:hover {
     width: 18%;
     height: 38vh;
   }
+}
+.mobileyep {
 }
