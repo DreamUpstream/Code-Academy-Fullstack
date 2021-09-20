@@ -5,5 +5,4 @@ Many examples of how HTML can be used in nowadays web design
 # CSS - Bootstrap
 Learn and practice the fundamentals of CSS to add beautiful styling to your webpages using Twitter Bootstrap.
 # More soon...
-Javascript - React, Vue.js
-PHP - Laravel
+Javascript - React, Vue.js / PHP - Laravel
