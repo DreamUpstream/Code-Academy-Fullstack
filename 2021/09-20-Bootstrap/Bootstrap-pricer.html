@@ -13,61 +13,142 @@
     />
   </head>
   <body>
-    <div></div>
-    <div class="container my-auto h-100 text-center">
-      <div class="mx-auto">
-        <h1 class="display-3">Pricing</h1>
+    <!-- NAV BAR PRASIDEDA -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Pricing page</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Dropdown
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled">Disabled</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!-- NAV BAR BAIGIASI -->
+
+    <div class="container">
+      <div class="mx-auto text-center col-12 col-md-6">
+        <h1 class="display-4">Pricing</h1>
         <p class="lead">
           Quickly build an effective pricing table for your potential customers
           with this Bootstrap example. It's built with default Bootstrap
           components and utilities with little customization.
         </p>
       </div>
-      <div class="row my-auto">
-        <div class="col">
+      <div class="row text-center">
+        <div class="col-12 col-md-4 flex-grow-1 mb-4">
           <div class="card">
             <h5 class="card-header">Free</h5>
-            <div class="card-body">
-              <h5 class="card-title">$0 / mo</h5>
-              <p class="card-text">
-                10 users included Email support Help center access
-              </p>
-              <p class="card-text">2 GB of storage</p>
-              <p class="card-text">Email support</p>
-              <p class="card-text">Help center</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+            <div class="card-body p-4">
+              <h1 class="card-title">
+                $0 <small class="text-muted">/ mo</small>
+              </h1>
+              <ul class="list-unstyled">
+                <li>10 users included</li>
+                <li>2 GB of storage</li>
+                <li>Email support</li>
+                <li>Help center</li>
+              </ul>
+              <div class="d-grid gap-2">
+                <button
+                  type="button"
+                  class="btn btn-lg btn-block btn-outline-primary"
+                >
+                  Large button
+                </button>
+              </div>
             </div>
           </div>
         </div>
-        <div class="col">
+        <div class="col-12 col-md-4 flex-grow-1 mb-4">
           <div class="card">
-            <h5 class="card-header">Pro</h5>
-            <div class="card-body">
-              <h5 class="card-title">$15 / mo</h5>
-              <p class="card-text">
-                10 users included Email support Help center access
-              </p>
-              <p class="card-text">2 GB of storage</p>
-              <p class="card-text">Email support</p>
-              <p class="card-text">Help center</p>
-              <a href="#" class="btn btn-primary justify-content-center"
-                >Go somewhere</a
-              >
+            <h5 class="card-header">Free</h5>
+            <div class="card-body p-4">
+              <h1 class="card-title">
+                $0 <small class="text-muted">/ mo</small>
+              </h1>
+              <ul class="list-unstyled">
+                <li>10 users included</li>
+                <li>2 GB of storage</li>
+                <li>Email support</li>
+                <li>Help center</li>
+              </ul>
+              <div class="d-grid gap-2">
+                <button type="button" class="btn btn-lg btn-block btn-primary">
+                  Large button
+                </button>
+              </div>
             </div>
           </div>
         </div>
-        <div class="col">
+        <div class="col-12 col-md-4 flex-grow-1 mb-4">
           <div class="card">
-            <h5 class="card-header">Enterprise</h5>
-            <div class="card-body">
-              <h5 class="card-title">$29 / mo</h5>
-              <p class="card-text">
-                10 users included Email support Help center access
-              </p>
-              <p class="card-text">2 GB of storage</p>
-              <p class="card-text">Email support</p>
-              <p class="card-text">Help center</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+            <h5 class="card-header">Free</h5>
+            <div class="card-body p-4">
+              <h1 class="card-title">
+                $0 <small class="text-muted">/ mo</small>
+              </h1>
+              <ul class="list-unstyled">
+                <li>10 users included</li>
+                <li>2 GB of storage</li>
+                <li>Email support</li>
+                <li>Help center</li>
+              </ul>
+              <div class="d-grid gap-2">
+                <button type="button" class="btn btn-lg btn-block btn-primary">
+                  Large button
+                </button>
+              </div>
             </div>
           </div>
         </div>
