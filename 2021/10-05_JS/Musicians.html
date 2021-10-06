@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script>
+      //   function summerRecursion(ats) {
+      //     if (ats == 0) {
+      //       return 0;
+      //     }
+      //     return (ats % 10) + summerRecursion(Math.floor(ats / 10));
+      //   }
+      function summerRecursion(ats) {
+        if (ats == 0) {
+          return 0;
+        }
+        let last
+        ats = (ats % 10) + summerRecursion(Math.floor(ats / 10));
+        return ats;
+      }
+      let ats = summerRecursion(
+        +prompt("Iveskite skaiciu kurio skaitmenis norite susumuoti")
+      );
+      console.log(ats);
+    </script>
+  </head>
+  <body></body>
+</html>

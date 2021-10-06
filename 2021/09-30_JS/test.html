@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script>
+      class RnDfinder {
+        constructor(numbers) {
+          for (let i = 0; i < 5; i++) {
+            numbers.push(this.randomIntFromInterval(1, 10));
+          }
+          this.numbers = numbers;
+        }
+        randomIntFromInterval(min, max) {
+          return (Math.random() * (max - min + 1) + min).toFixed(2);
+        }
+        maxFinder(nmbers) {
+          let l = nmbers.length;
+          let max = -Infinity;
+          for (let i = 0; i < l; i++) {
+            if (nmbers[i] > max) {
+              max = nmbers[i];
+            }
+          }
+          return max;
+        }
+        minFinder(nmbers) {
+          let l = nmbers.length;
+          let min = Infinity;
+          for (let i = 0; i < l; i++) {
+            if (nmbers[i] < min) {
+              min = nmbers[i];
+            }
+          }
+          return min;
+        }
+        printAnswer(nmbers, min, max) {
+          nmbers.forEach((element) => alert("Sugeneruotas sk: " + element));
+          alert("Mažiausias sk. yra: " + min);
+          alert("Didžiausias sk. yra: " + max);
+        }
+      }
+      alert(Math.random() * "10");
+      let nmbers = [];
+      let rdFinder = new RnDfinder(nmbers);
+      let min = rdFinder.minFinder(rdFinder.numbers);
+      let max = rdFinder.maxFinder(rdFinder.numbers);
+      rdFinder.printAnswer(rdFinder.numbers, min, max);
+    </script>
+  </head>
+  <body></body>
+</html>
