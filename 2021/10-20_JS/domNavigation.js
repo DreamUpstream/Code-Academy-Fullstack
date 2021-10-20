@@ -12,7 +12,8 @@ function saveForms(){
     values.push(selectElement.value);
     return values;
 }
-function formSaver() {
+
+document.getElementById("save").addEventListener("click", function() {
     let values = saveForms();
     let table = document.getElementById("age-table");
     let rows = table.getElementsByTagName("tr");
@@ -27,15 +28,17 @@ function formSaver() {
         cell3.innerHTML = values[2];
         break;
     }
-}
-function formDelete() {
+});
+
+document.getElementById("delete").addEventListener("click", function() {
     let rows = document.getElementById("age-table").getElementsByTagName("tr");
     for (let i = rows.length-2; i > 0; i--) {
         rows[i].remove();
         break;
     }
-}
-
+});
+document.getElementById("save").addEventListener("click", formSaver());
+document.getElementById("delete").addEventListener("click", formDelete());
 //----Uzduotis
 let table = document.getElementById("age-table");
 console.log(table.getElementsByTagName("td")[0]);
