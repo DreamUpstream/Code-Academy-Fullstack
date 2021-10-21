@@ -37,9 +37,10 @@ document.getElementById("delete").addEventListener("click", function() {
         break;
     }
 });
-document.getElementById("save").addEventListener("click", formSaver());
-document.getElementById("delete").addEventListener("click", formDelete());
 //----Uzduotis
 let table = document.getElementById("age-table");
 console.log(table.getElementsByTagName("td")[0]);
+console.log(document.querySelector('#age'));
 console.log(table.getElementsByTagName("label"));
+console.log(document.querySelector('input'));
+console.log(document.querySelector('input:last-of-type'));
