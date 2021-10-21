@@ -43,4 +43,4 @@ console.log(table.getElementsByTagName("td")[0]);
 console.log(document.querySelector('#age'));
 console.log(table.getElementsByTagName("label"));
 console.log(document.querySelector('input'));
-console.log(document.querySelector('input:last-of-type'));
+console.log(document.querySelector('#age-table #formRow form:last-of-type>input:last-of-type')); // ?????
