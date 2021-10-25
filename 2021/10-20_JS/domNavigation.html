@@ -17,50 +17,57 @@
         margin-top: 20px;
         padding: 10px;
         margin-left: 20px;
+        flex-grow: 3;
+      }
+      .flexbox {
+        display: flex;
       }
     </style>
   </head>
 
   <body>
-    <table id="age-table">
-      <tr>
-        <th>Name</th>
-        <th>Age</th>
-        <th>Country</th>
-      </tr>
-      <tr>
-        <td id="age">Jonas Kapitonas</td>
-        <td>37</td>
-        <td>Lithuania</td>
-      </tr>
-      <tr>
-        <td>Bajoras Ponas</td>
-        <td id="age">54</td>
-        <td>Japan</td>
-      </tr>
-      <tr id="formRow">
-        <td>
-          <form>
-            <label for="nameForm">Name:</label>
-            <input type="text" id="nameForm" name="nameForm" />
-          </form>
-        </td>
-        <td>
-          <form>
-            <label for="ageForm">Age:</label>
-            <input type="text" id="ageForm" name="ageForm" />
-          </form>
-        </td>
-        <td>
-          <form>
-            <label for="country">Country:</label>
-            <input type="text" id="country" name="country" />
-          </form>
-        </td>
-      </tr>
-    </table>
-    <button id="save">Save</button>
-    <button id="delete">Delete</button>
+    <div class="flexbox">
+      <table id="age-table">
+        <tr>
+          <th>Name</th>
+          <th>Age</th>
+          <th>Country</th>
+        </tr>
+        <tr>
+          <td id="age">Jonas Kapitonas</td>
+          <td>37</td>
+          <td>Lithuania</td>
+        </tr>
+        <tr>
+          <td>Bajoras Ponas</td>
+          <td id="age">54</td>
+          <td>Japan</td>
+        </tr>
+        <tr id="formRow">
+          <td>
+            <form>
+              <label for="nameForm">Name:</label>
+              <input type="text" id="nameForm" name="nameForm" />
+            </form>
+          </td>
+          <td>
+            <form>
+              <label for="ageForm">Age:</label>
+              <input type="text" id="ageForm" name="ageForm" />
+            </form>
+          </td>
+          <td>
+            <form>
+              <label for="country">Country:</label>
+              <input type="text" id="country" name="country" />
+            </form>
+          </td>
+        </tr>
+      </table>
+      <button id="save">Save</button>
+      <button id="delete">Delete</button>
+    </div>
+
     <!-- Scripts -->
     <script src="domNavigation.js"></script>
   </body>
