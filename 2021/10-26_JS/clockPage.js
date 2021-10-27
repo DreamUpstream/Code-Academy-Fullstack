@@ -157,6 +157,7 @@ main.classList = 'main';
         //Third Section
         sections[2].id = 'formSection';
         let form = document.createElement('form');
+        form.id = 'formCSS';
         let customerName = document.createElement('input');
         customerName.placeholder = 'Name';
         customerName.id = 'customerName';

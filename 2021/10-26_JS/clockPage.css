@@ -56,17 +56,20 @@ body {
 .clock {
   font-size: 3em;
   padding-left: 40%;
-
   background-color: #cccccc;
 }
 
 #formSection {
   margin-left: auto;
   margin-right: auto;
-  width: 40em;
+  width: 50em;
   padding: 50px;
   margin-bottom: 50px;
   background-color: #4d4d4d;
+}
+
+#formCSS {
+  padding-left: 50px;
 }
 
 @media screen and (max-width: 600px) {
@@ -78,6 +81,9 @@ body {
     margin-bottom: 10px;
   }
 
+  #formCSS {
+    padding-left: 0px;
+  }
   .clock {
     font-size: 3em;
     padding-left: 25%;
