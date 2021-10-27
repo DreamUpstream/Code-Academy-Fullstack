@@ -69,10 +69,14 @@ body {
   width: 100%;
 }
 
-.sliderSection {
-}
-
 .clock {
   font-size: 3em;
   padding-left: 40%;
+}
+
+#formSection {
+  margin-left: auto;
+  margin-right: auto;
+  width: 40em;
+  padding: 50px;
 }

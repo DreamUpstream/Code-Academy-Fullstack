@@ -155,23 +155,19 @@ main.classList = 'main';
         ClockP.id = "clock";
         ClockP.classList = "clock";
         //Third Section
+        sections[2].id = 'formSection';
         let form = document.createElement('form');
-
         let customerName = document.createElement('input');
         customerName.placeholder = 'Name';
         customerName.id = 'customerName';
-
         let customerMessage = document.createElement('input');
         customerMessage.placeholder = 'Message';
         customerMessage.id = 'customerMessage';
-
         let submitButton = document.createElement('button');
         submitButton.innerText = 'Send';
         submitButton.id = 'submitButton';
         submitButton.setAttribute('type', 'button');
-
         let formArray = [customerName, customerMessage, submitButton];
-        console
         form = AppendElementsToTag(form, formArray);
 
     //appending
@@ -181,5 +177,5 @@ main.classList = 'main';
     main = AppendElementsToTag(main, sections);
     body.append(main);
     //Script
-    startTime()
+    startTime();
     slides();
