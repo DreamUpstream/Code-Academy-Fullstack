@@ -56,6 +56,8 @@ body {
 .clock {
   font-size: 3em;
   padding-left: 40%;
+
+  background-color: #cccccc;
 }
 
 #formSection {
@@ -63,6 +65,8 @@ body {
   margin-right: auto;
   width: 40em;
   padding: 50px;
+  margin-bottom: 50px;
+  background-color: #4d4d4d;
 }
 
 @media screen and (max-width: 600px) {
@@ -71,6 +75,7 @@ body {
     margin-right: auto;
     width: 20em;
     padding: 50px;
+    margin-bottom: 10px;
   }
 
   .clock {
