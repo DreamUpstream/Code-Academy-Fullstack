@@ -14,4 +14,4 @@ class Movie {
     getProfit() {
         return "Movie generated profit is: " + (Number(this.income) - Number(this.budget));
     }
-}  
+}
