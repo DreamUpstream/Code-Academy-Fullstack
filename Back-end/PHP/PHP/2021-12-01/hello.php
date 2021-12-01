@@ -9,10 +9,10 @@
 </body>
 </html>
 <?php
-    echo 'Example 1: <br>';
+    echo 'Example 1: <br> <br>';
     $hello = 'hello';
+    echo 'Word \'hello\' <br> <br>';
     echo "\"$hello[0]\", \"$hello[1]\", \"$hello[-1]\". <br> <br>";
-    echo 'Example 2: <br> <br>';
     function letterWord($word, $letter) {
         if (strpos($word, $letter) !== false)
         {
@@ -24,6 +24,7 @@
     }
     if (isset($_POST['submit'])) {
         $word = $_POST['example'];
+        echo 'Example 2: <br> <br>';
         echo "You entered $word. <br> <br>";
         echo letterWord($word, 'h').letterWord($word, 'e').letterWord($word, 'o');
       }
