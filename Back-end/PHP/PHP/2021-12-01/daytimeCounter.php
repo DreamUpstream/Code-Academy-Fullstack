@@ -3,7 +3,7 @@
 <h1>Enter the amount of days:</h1>
 
 <form action="" method="post">
-  Example value: <input name="example" type="text" />
+  Days: <input name="example" type="text" />
   <input name="submit" type="submit" />
 </form>
 </body>
