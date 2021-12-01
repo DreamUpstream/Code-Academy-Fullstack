@@ -19,7 +19,7 @@
             return "$word contains $letter <br>";
         }
         else {
-            return "$word does not contain $letter <br>";
+            return "$word does not contain \"$letter\" <br>";
         }
     }
     if (isset($_POST['submit'])) {
