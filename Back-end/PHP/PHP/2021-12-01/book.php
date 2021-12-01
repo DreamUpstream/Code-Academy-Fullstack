@@ -12,12 +12,10 @@ function bookYearAvarage($books) {
     $avarageSum = 0;
     $avarageAmount = 0;
     foreach ($books as $key => $value) {
-        if ($key = 'Year') {
+        if ($key == 'Year') {
             foreach ($value as $subValue) {   
-                if (is_int($subValue)) {
-                    $avarageSum += $subValue; 
-                    $avarageAmount++;
-                }
+                $avarageSum += $subValue; 
+                $avarageAmount++;
             }
         }
     }
