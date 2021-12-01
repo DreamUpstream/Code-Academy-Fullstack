@@ -14,7 +14,7 @@
         $i = 0;
         $answer = '';
         while ($i < 10){
-            $answer .= str_repeat("$i", $i)."<br>";
+            $answer .= str_repeat($i, $i)."<br>";
             $i++;
         }
         return $answer;
