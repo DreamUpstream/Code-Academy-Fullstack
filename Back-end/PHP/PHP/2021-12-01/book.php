@@ -19,7 +19,7 @@ function bookYearAvarage($books) {
             }
         }
     }
-    return $avarageSum/$avarageAmount;
+    return round($avarageSum/$avarageAmount);
 }
 
 $books = [
