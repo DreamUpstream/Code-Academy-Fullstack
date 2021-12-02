@@ -7,14 +7,14 @@ echo "{$arr['lt'][0]}, {$arr['en'][2]} <br> <br>";
 ?>
 
 <html>
-<body>
-<h3>Enter your preferred language to show current day:</h1>
+    <body>
+        <h3>Enter your preferred language to show current day:</h1>
 
-<form action="" method="post">
-  Language: <input name="weekDay" type="text" />
-  <input name="submit" type="submit" />
-</form>
-</body>
+        <form action="" method="post">
+            Language: <input name="weekDay" type="text" />
+            <input name="submit" type="submit" />
+        </form>
+    </body>
 </html>
 
 <?php
