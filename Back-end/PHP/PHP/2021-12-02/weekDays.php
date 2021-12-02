@@ -26,7 +26,7 @@ function dayPrinter ($arr, $lang) {
     else if ($lang == 'lt'){
         echo 'Šiandien yra ';
         $index = array_search($today, $arr['en']);
-        echo $arr['lt'][3];
+        echo $arr['lt'][$index];
     }
     else {
         echo 'You have to enter \'en\' or \'lt\'';
