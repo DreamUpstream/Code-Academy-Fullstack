@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Registracija i kursus</h2>
+        <hr> <br>
+
+    <form action="registration.php" method="POST"> Vardas:
+        <input type="text" name="firstname"> <br><br> Pavarde:
+        <input type="text" name="lastname"> <br><br> Miestas:
+        <select name="miestas">
+            <option>Vilnius</option>
+            <option>Kaunas</option>
+            <option>Klaipeda</option>
+        </select>
+        <h2>Programavimo kalba:</h2>
+        C++ <input type="checkbox" name="check_list[]" value="C++"><br>
+        PHP <input type="checkbox" name="check_list[]" value="PHP"><br>
+        Python <input type="checkbox" name="check_list[]" value="Python"><br>
+        <h3>Papildoma informacija:</h3>
+        <textarea name="comment" rows="5" cols="40" placeholder="Pvz. : turite C++ programavimo patirties"></textarea><br><br>
+        <input type="submit" value="Siusti">
+    </form>
+</body>
+</html>
