@@ -14,7 +14,7 @@ require_once 'upload.php';
 		<h1 class="px-5 pt-3 pb-3 text-white">Jūsų profilis</h2>
 	</div>
 	<div class="d-flex justify-content-center py-5">
-		<div class="mb-3 mx-5 px-5 pb-5 pt-5 col-10 col-md-6 text-center" style="background-color: rgb(190, 190, 190); color:white;">
+		<div class="mb-3 mx-5 px-5 pb-5 pt-5 col-10 col-md-6 text-center" style="background-color: rgb(210, 210, 210); color:white;">
 			<img src="<?php echo $profilePicture; ?>" class="mb-2" style = "width: 200px;">
 			<h3 class="bg-secondary mb-2 py-1">El pašto adresas:</h3>
 			<div class="bg-dark mb-2 py-1">
