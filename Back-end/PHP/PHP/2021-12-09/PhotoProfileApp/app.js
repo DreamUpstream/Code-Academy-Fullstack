@@ -53,9 +53,17 @@ document.addEventListener('DOMContentLoaded', function() {
         // image.style = "width: 300px; height: 320px";
         document.querySelector('#printImage ').innerText = "";
         document.querySelector('#printImage').appendChild(image);
+        let link = document.createElement("a");
+        link.setAttribute('download', "-");
+        link.href = response;
+        link.setAttribute('id',"download");
+        document.body.appendChild(link);
     });
 });
 document.querySelector('#save').addEventListener('click', function() {
+    link = document.querySelector("#download");
+    link.click();
+    link.remove();
     document.querySelector('#printImage ').innerText = "";
     let image = document.createElement("img");
     image.src = "resources/saved.png";
