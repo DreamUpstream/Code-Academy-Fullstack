@@ -30,43 +30,54 @@ $black = imagecolorallocate($im, 0, 0, 0);
 $font_path = 'resources/open-sans/OpenSans-Semibold.ttf';
 
 // Set Text to Be Printed On Image
+if (isset($_POST['nameSurname']))
 $name = $_POST['nameSurname'];
+if (isset($_POST['email']))
 $email = $_POST['email'];
+if (isset($_POST['city']))
 $city = $_POST['city'];
+if (isset($_POST['comment']))
 $comment = $_POST['comment'];
+if (isset($_POST['languages']))
 $languages = explode(",", $_POST['languages']);
 
 // Print Text On Image
-if (strlen($name) > 19)
-imagettftext($im, 25, 0, 25, 390, $black, $font_path, $name);
-else if (strlen($name) > 13){
-    imagettftext($im, 25, 0, 60, 390, $black, $font_path, $name);
+if (isset($_POST['nameSurname'])) {
+    if (strlen($name) > 19)
+    imagettftext($im, 25, 0, 25, 390, $black, $font_path, $name);
+    else if (strlen($name) > 13){
+        imagettftext($im, 25, 0, 60, 390, $black, $font_path, $name);
+    }
+    else {
+        imagettftext($im, 25, 0, 130, 390, $black, $font_path, $name);
+    }
 }
-else {
-    imagettftext($im, 25, 0, 130, 390, $black, $font_path, $name);
-}
-
+if (isset($_POST['email']))
 imagettftext($im, 14, 0, 155, 500, $black, $font_path, $email);
+if (isset($_POST['city']))
 imagettftext($im, 14, 0, 225, 530, $black, $font_path, $city);
 $height = 620;
 $i = 0;
+if (isset($_POST['languages']))
 foreach ($languages as &$value) {
     if ($value) {
         imagettftext($im, 14, 0, 180, $height + $i, $black, $font_path, "• " . $value);
         $i += 30;
     }
 }
-if (strlen($comment) > 62) {
-    imagettftext($im, 13, 0, 80, 752, $black, $font_path, "Tekstas per ilgas. Sutrumpinkite.");
-}
-else if (strlen($comment) < 31) {
-    imagettftext($im, 13, 0, 80, 752, $black, $font_path, $comment);
-}
-else {
-    $output[0] = substr($comment, 0, 31);
-    $output[1] = substr($comment, 31, strlen($comment));
-    imagettftext($im, 13, 0, 80, 752, $black, $font_path, $output[0]);
-    imagettftext($im, 13, 0, 80, 786, $black, $font_path, $output[1]);
+if (isset($_POST['comment'])) {
+    if (strlen($comment) > 62) {
+        imagettftext($im, 13, 0, 80, 752, $black, $font_path, "Tekstas per ilgas. Sutrumpinkite.");
+    }
+    else if (strlen($comment) < 31) {
+        imagettftext($im, 13, 0, 80, 752, $black, $font_path, $comment);
+    }
+    else {
+        $output[0] = substr($comment, 0, 31);
+        $output[1] = substr($comment, 31, strlen($comment));
+        imagettftext($im, 13, 0, 80, 752, $black, $font_path, $output[0]);
+        imagettftext($im, 13, 0, 80, 786, $black, $font_path, $output[1]);
+    }
 }
     
 
