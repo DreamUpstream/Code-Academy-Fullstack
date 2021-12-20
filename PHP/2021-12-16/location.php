@@ -1,5 +1,4 @@
 <?php
-include 'jsonPretty.php';
 
 session_start();
 
@@ -44,7 +43,7 @@ try {
             <div class="card-header text-center">Locator v1.0</div>
             <div class="card-body text-center">
                 <h5 class="card-title">
-                    <?php echo "Vartotojo " . $_SESSION["username"] . " informacija:" ?>
+                    <?php echo "Vartotojo " . $_SESSION["username"] . " lokacija:" ?>
                 </h5>
                 <p class="card-text">
                     <?php 
