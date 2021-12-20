@@ -8,6 +8,7 @@ $trigger = false;
 try {
     foreach ($json["users"] as $user) {
         if ($user["username"] == $_SESSION["username"]) {
+            echo "<h1> TODO: Pagražinti </h1> <br>";
             var_dump($user);
             $trigger = true;
         }
