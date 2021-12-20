@@ -53,6 +53,7 @@ try {
                     <?php
                     $pass = false;
                     $dir = new DirectoryIterator(dirname(__FILE__) . "/sessions");
+                    $last = "Jūs prisijungiate pirmą kartą.";
                     foreach ($dir as $fileinfo) {
                         if (!$fileinfo->isDot()) {
                             $filename = ($fileinfo->getFilename());
