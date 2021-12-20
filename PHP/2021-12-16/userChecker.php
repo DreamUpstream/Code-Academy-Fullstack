@@ -19,7 +19,7 @@ foreach ($json["users"] as $user) {
         $emailPass = true;
         $username = $user["username"];
     }
-    if ($user["password"] == $password) {
+    if ($user["password"] === $password) {
         $passwordPass = true;
     }
 }
