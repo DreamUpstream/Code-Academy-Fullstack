@@ -1,4 +1,5 @@
 <?php 
+include 'jsonPretty.php';
 session_start();
 if (isset($_POST['email'])) {
     $email = $_POST['email'];

@@ -1,8 +1,10 @@
 <?php
+include 'jsonPretty.php';
+
 session_start();
 
 $file = file_get_contents("users.json");
-$json = json_decode($file, JSON_PRETTY_PRINT);
+$json = json_decode($file, true);
 $trigger = false;
 try {
     if (!isset($_SESSION['username'])) {
@@ -46,7 +48,7 @@ try {
                 </h5>
                 <p class="card-text">
                     <?php 
-                    var_dump($userinfo)
+                    echo json_encode($userinfo['location'], JSON_PRETTY_PRINT);
                     ?>
                 </p>
                 <p>
