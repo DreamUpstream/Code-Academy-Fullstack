@@ -38,9 +38,9 @@ $data2 = file_get_contents($source2);
 $json = json_decode($data2, true);
 $map=array();
 $keyValue = csv_recursive($json, $map);
-$dis = csvFinal($keyValue);
+$final = csvFinal($keyValue);
 $myfile2 = fopen("generatedFiles/blabla2.csv", "w");
-fwrite($myfile2, $dis);
+fwrite($myfile2, $final);
 fclose($myfile2);
   
 ?>
