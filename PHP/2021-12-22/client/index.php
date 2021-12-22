@@ -4,7 +4,7 @@ define("IP", "192.168.1.209"); // CHANGE YOUR IP HERE
 
 function curl_download($Url){
     if (!function_exists('curl_init')){
-      die('Sorry cURL is not installed!');
+      die('Error');
     }
 
     $ch = curl_init();
