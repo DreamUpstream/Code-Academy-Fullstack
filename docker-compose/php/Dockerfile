@@ -19,6 +19,8 @@ RUN echo 'en_US.UTF-8 UTF-8' >> /etc/locale.gen && \
     echo 'de_DE.UTF-8 UTF-8' >> /etc/locale.gen  && \
     locale-gen
 
+COPY --from=composer:2.2.3 /usr/bin/composer /usr/bin/composer
+
 ENV LANG en_US.UTF-8  
 ENV LANGUAGE en_US:en  
 ENV LC_ALL en_US.UTF-8

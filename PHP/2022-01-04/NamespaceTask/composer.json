@@ -1,0 +1,9 @@
+{
+	"name": "root/namespace-task",
+	"autoload": {
+		"psr-4": {
+			"App\\": "app/"
+		}
+	},
+	"require": {}
+}
