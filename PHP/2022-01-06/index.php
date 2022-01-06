@@ -9,5 +9,4 @@ $tag->setText('title')->setAttr('href', 'index.html')->show();
 
 $tag2 = (new Tag ('br'))->show();
 
-
-echo $tag->setText('title')->setAttr('href', 'index.html')->get();
+echo $tag->setText('title2')->setAttr('href', 'index.html')->get();
