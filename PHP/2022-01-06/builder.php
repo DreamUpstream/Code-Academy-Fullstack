@@ -26,7 +26,7 @@ class Tag {
     }
 
     public function show () {
-        echo "<" . $this->tag . $this->attributes . ">". $this->text . "</" . $this->tag . ">";
+        echo $this->get();
     }
 
     public function get () {
