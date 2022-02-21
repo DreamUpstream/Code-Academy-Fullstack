@@ -1,0 +1,11 @@
+{
+	"name": "root/2022-01-13",
+	"autoload": {
+		"psr-4": {
+			"App\\": "public/"
+		}
+	},
+	"require": {
+		"bramus/router": "^1.6"
+	}
+}

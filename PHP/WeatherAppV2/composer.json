@@ -1,0 +1,11 @@
+{
+	"name": "root/weather-app-v2",
+	"autoload": {
+		"psr-4": {
+			"App\\": "app/"
+		}
+	},
+	"require": {
+		"bramus/router": "^1.6"
+	}
+}

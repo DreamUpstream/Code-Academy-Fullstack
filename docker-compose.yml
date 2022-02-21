@@ -21,3 +21,26 @@ services:
         volumes: 
             - ./PHP:/home/code-academy/PHP
             - ./docker-compose/logs/php-fpm:/var/log/php-fpm
+        env_file:
+            - ./docker-compose/mysql/.env
+            # - ./PHP/2022-01-11/Quiz/.env
+    
+    db-mariadb:
+        container_name: codeacademy-db-mariadb
+        image: mariadb:10.6.5
+        env_file:
+            - ./docker-compose/mysql/.env
+        volumes:
+            - ./docker-compose/mysql/data/mariadb:/var/lib/mysql
+        ports:
+            - 3306:3306
+
+    # db-mysql:
+    #     container_name: codeacademy-db-mysql
+    #     image: mysql:5.7
+    #     env_file:
+    #         - ./docker-compose/mysql/.env
+    #     volumes:
+    #         - ./docker-compose/mysql/data/mysql:/var/lib/mysql
+    #     ports:
+    #         - 3307:3306

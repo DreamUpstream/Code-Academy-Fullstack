@@ -1,0 +1,6 @@
+{
+	"Two plus five is:": ["7", "Twoplusfive", "Twofive", "#Should I concat or add?"],
+	"What is the world’s longest river called?": ["Volga volga", "#Nile", "Nemunas"],
+	"Which city hosted the Summer Olympics in 2012": ["#London", "Kaunas", "Shanghai", "Palanga"],
+	"What is the rarest blood type?": ["Vampire blood", "#AB-Negative", "ABC", "I don't know"]
+}
