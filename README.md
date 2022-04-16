@@ -1,8 +1,178 @@
-# Advanced Fullstack course projects all in one!
-This is list of most projects I had to create to finish Web Development - Fullstack Path on Codecademy
-# HTML
-Many examples of how HTML can be used in nowadays web design
-# CSS - Bootstrap
-Learn and practice the fundamentals of CSS to add beautiful styling to your webpages using Twitter Bootstrap.
-# More soon...
-Javascript - React, Vue.js / PHP - Laravel
+## PHP
+1. [Docker](https://docs.docker.com)
+2. [Kintamieji](https://www.php.net/manual/en/language.variables.php)
+	1. [Kintamieji](https://www.php.net/manual/en/language.variables.basics.php)
+	2. Kintamųjų interpoliavimas
+	3. [Konstantos](https://www.php.net/manual/en/language.constants.php)
+	4. [Duomenų tipai](https://www.php.net/manual/en/language.types.php)
+3. [Operatoriai](https://www.php.net/manual/en/language.operators.php)
+	1. [Matematinia operatoriai](https://www.php.net/manual/en/language.operators.arithmetic.php)
+	2. [Priskyrimo operatoriai](https://www.php.net/manual/en/language.operators.assignment.php)
+	3. [Didinimas ir mažinimas](https://www.php.net/manual/en/language.operators.increment.php)
+	4. Operatorių prioritetai
+	5. [Vykdymo operatorius](https://www.php.net/manual/en/language.operators.execution.php)
+	6. [String operatoriai](https://www.php.net/manual/en/language.operators.string.php)
+	7. [Masyvų operatoriai](https://www.php.net/manual/en/language.operators.array.php)
+	8. [Tipų operatoriai (instanceof)](https://www.php.net/manual/en/language.operators.type.php)
+4. Sąlygos
+	1. [IF teiginys](https://www.php.net/manual/en/control-structures.if.php)
+	2. [ELSE teiginys](https://www.php.net/manual/en/control-structures.else.php)
+	3. [ELSEIF teiginys](https://www.php.net/manual/en/control-structures.elseif.php)
+	4. [Palyginimo operatoriai](https://www.php.net/manual/en/language.operators.comparison.php)
+	5. [Loginiai operatoriai](https://www.php.net/manual/en/language.operators.logical.php)
+	6. [SWITCH](https://www.php.net/manual/en/control-structures.switch.php)
+	7. Ternary operator
+5. [Strings](https://www.php.net/manual/en/language.types.string.php)
+6. [Masivai](https://www.php.net/manual/en/language.types.array.php)
+7. [Funkcijos](https://www.php.net/manual/en/functions.user-defined.php)
+8. Ciklai
+	* [FOR](https://www.php.net/manual/en/control-structures.for.php)
+	* [WHILE](https://www.php.net/manual/en/control-structures.while.php)
+	* [DO-WHILE](https://www.php.net/manual/en/control-structures.do.while.php)
+	* [FOREACH](https://www.php.net/manual/en/control-structures.foreach.php)
+	* [CONTINUE](https://www.php.net/manual/en/control-structures.continue.php)
+	* [BREAK](https://www.php.net/manual/en/control-structures.break.php)
+9. [Alternatyvi sintaksė](https://www.php.net/manual/en/control-structures.alternative-syntax.php)
+10. Kodo skaidimas į failus ir pajungimas
+	1. [include](https://www.php.net/manual/en/function.include.php)
+	2. [include_once](https://www.php.net/manual/en/function.include-once.php)
+	3. [require](https://www.php.net/manual/en/function.require.php)
+	4. [require_once](https://www.php.net/manual/en/function.require-once.php)
+12. [Formos](https://www.php.net/manual/en/tutorial.forms.php)
+	* [$_GET](https://www.php.net/manual/en/reserved.variables.get.php)
+	* [$_POST](https://www.php.net/manual/en/reserved.variables.post.php)
+	* [$_REQUEST](https://www.php.net/manual/en/reserved.variables.request.php)
+	* [$_FILES](https://www.php.net/manual/en/reserved.variables.files.php)
+13. Standartiniai plėtiniai
+	1. [Vaizdo apdorojimas ir generavimas (GD)](https://www.php.net/manual/en/book.image.php)
+	2. [Išvesties buferio valdymas (Output Buffering Control)](https://www.php.net/manual/en/book.outcontrol.php)
+	3. [Cookies](https://www.php.net/manual/en/features.cookies.php)
+		* [setcookie](https://www.php.net/manual/en/function.setcookie.php)
+		* [$_COOKIE](https://www.php.net/manual/en/reserved.variables.cookies.php)
+	4. [Sessijos](https://www.php.net/manual/en/book.session.php)
+	5. [Files IO](https://www.php.net/manual/en/book.filesystem.php)
+		* [file\_get\_contents](https://www.php.net/manual/en/function.file-get-contents.php)
+		* [file\_put\_contents](https://www.php.net/manual/en/function.file-put-contents.php)
+		* [fopen](https://www.php.net/manual/en/function.fopen.php)
+		* [fread](https://www.php.net/manual/en/function.fread.php)
+		* [fwrite](https://www.php.net/manual/en/function.fwrite.php)
+	6. [CURL](https://www.php.net/manual/en/book.curl.php)
+	7. [Exceptions (try-catch)](https://www.php.net/manual/en/language.exceptions.php)
+14. OOP
+	1. Įvadas į OOP
+	2. [Klasės](https://www.php.net/manual/en/language.oop5.references.php)
+		* [Konstruktoriai](https://www.php.net/manual/en/language.oop5.decon.php)
+	3. [Savybės ir metodai](https://www.php.net/manual/en/language.oop5.properties.php)
+		* [Konstantos](https://www.php.net/manual/en/language.oop5.constants.php)
+	4. [Matomumas (Visibility)](https://www.php.net/manual/en/language.oop5.visibility.php)
+	5. [Statika (Static)](https://www.php.net/manual/en/language.oop5.static.php)
+	6. [Paveldėjimas (Extends)](https://www.php.net/manual/en/language.oop5.inheritance.php)
+	7. [Abstrakčios klasės](https://www.php.net/manual/en/language.oop5.abstract.php)
+	8. [Interfeisai](https://www.php.net/manual/en/language.oop5.interfaces.php)
+	9. [Perkrovos ir magiški metodai](https://www.php.net/manual/en/language.oop5.magic.php)
+	10. [Tipo kontrolė](https://www.php.net/manual/en/language.types.declarations.php)
+	11. [Namespaces](https://www.php.net/manual/en/language.namespaces.php)
+	12. [Traits](https://www.php.net/manual/en/language.oop5.traits.php)
+15. [Composer](https://getcomposer.org)
+	1. Autoload
+		1. [Autoload](https://getcomposer.org/doc/04-schema.md#autoload)
+		2. [dump-autoload](https://getcomposer.org/doc/03-cli.md#dump-autoload-dumpautoload-)
+		2. [PSR-4](https://www.php-fig.org/psr/psr-4/)
+	2. Modules
+		3. [require](https://getcomposer.org/doc/03-cli.md#require)
+		4. [install](https://getcomposer.org/doc/03-cli.md#install-i)
+		5. [update](https://getcomposer.org/doc/03-cli.md#update-u)
+		6. [global](https://getcomposer.org/doc/03-cli.md#global)
+16. [MySQLi](https://www.php.net/manual/en/book.mysqli.php)
+	* Teorija
+		* [Dual procedural and object-oriented interface](https://www.php.net/manual/en/mysqli.quickstart.dual-interface.php) 
+		* [Connection](https://www.php.net/manual/en/mysqli.quickstart.connections.php)
+		* [Prepared Statements](https://www.php.net/manual/en/mysqli.quickstart.prepared-statements.php)
+	* Praktika
+		* ["mysqli" klasė - ryšio tarp PHP ir MySQL sukurimas](https://www.php.net/manual/en/class.mysqli.php)
+		* ["mysqli_stmt" klasė - prepared statements](https://www.php.net/manual/en/class.mysqli-stmt.php)
+		* ["mysqli_result" klasė - užklausos rezultato apdorojimas](https://www.php.net/manual/en/class.mysqli-result.php)
+17. [PDO](https://www.php.net/manual/en/book.pdo.php) 
+	* Teorija
+		* [Connection](https://www.php.net/manual/en/pdo.connections.php)
+		* [Prepared statements](https://www.php.net/manual/en/pdo.prepared-statements.php)
+	* Praktika
+		* ["PDO" klasė - ryšio tarp PHP ir MySQL sukurimas ir "prepared statements"](https://www.php.net/manual/en/class.pdo.php)
+		* ["PDOStatement" klasė - užklausos rezultato apdorojimas ir "prepared statements bind"](https://www.php.net/manual/en/class.pdostatement.php)
+18. [Laravel](https://laravel.com)
+	* 	[Documentation (V9)](https://laravel.com/docs/9.x)
+		*  [Installation Via Composer](https://laravel.com/docs/9.x/installation#installation-via-composer)
+		* 	Architecture
+			*  [Request Lifecycle](https://laravel.com/docs/9.x/lifecycle)
+			*  [Service Container](https://laravel.com/docs/9.x/container)
+			*  [Service Providers](https://laravel.com/docs/9.x/providers)
+			*  [Facades](https://laravel.com/docs/9.x/facades)
+		*  [Helpers](https://laravel.com/docs/9.x/helpers)
+		*  [Routing](https://laravel.com/docs/9.x/routing)
+		*  [Middleware](https://laravel.com/docs/9.x/middleware)
+		*  [Controllers](https://laravel.com/docs/9.x/controllers)
+			*  [Request](https://laravel.com/docs/9.x/requests)
+				*  [Request Helper](https://laravel.com/docs/9.x/helpers#method-request)
+			*  [Responses](https://laravel.com/docs/9.x/responses)
+				*  [Response Helper](https://laravel.com/docs/9.x/helpers#method-response)
+		*  [Views](https://laravel.com/docs/9.x/views)
+			*  [Blade](https://laravel.com/docs/9.x/blade)
+			*  [Assets](https://laravel.com/docs/9.x/mix)
+		*  [Database](https://laravel.com/docs/9.x/database)
+			*  [Migrations](https://laravel.com/docs/9.x/migrations)
+			*  [Query Builder](https://laravel.com/docs/9.x/queries)
+			*  [Eloquent ORM](https://laravel.com/docs/9.x/eloquent)
+				*  Custom Attributes
+					*  [8.* style (PHP 7.4 <=)](https://laravel.com/docs/8.x/eloquent-mutators#accessors-and-mutators)
+					*  [9.* style (>= PHP 8.0)](https://laravel.com/docs/9.x/eloquent-mutators#accessors-and-mutators)
+				*  [Scopes](https://laravel.com/docs/9.x/eloquent#query-scopes)
+			*  [Model factories](https://laravel.com/docs/9.x/database-testing#defining-model-factories)
+
+## Vue 3 (Composition API)
+
+* [Introduction](https://vuejs.org/guide/introduction.html#what-is-vue)
+* [Ways of Using Vue](https://vuejs.org/guide/extras/ways-of-using-vue.html#embedded-web-components)
+* [Composition API](https://vuejs.org/guide/extras/composition-api-faq.html)
+
+1. [Creating Application](https://vuejs.org/guide/essentials/application.html)
+2. [Template Syntax](https://vuejs.org/guide/essentials/template-syntax.html)
+	* [Directives](https://vuejs.org/api/built-in-directives.html)
+3. [Reactivity Fundamentals](https://vuejs.org/guide/essentials/reactivity-fundamentals.html)
+	* [Reactivity in Depth](https://vuejs.org/guide/extras/reactivity-in-depth.html)
+4. [ESLint plugin for Vue.js](https://eslint.vuejs.org/rules/valid-v-bind.html)
+5. [Vue Devtools](https://devtools.vuejs.org)
+6. [Components](https://vuejs.org/guide/components/registration.html)
+	* [Props](https://vuejs.org/guide/components/props.html)
+	* [Events](https://vuejs.org/guide/components/events.html)
+	* [Slots](https://vuejs.org/guide/components/slots.html)
+7. [Vue Router](https://router.vuejs.org/introduction.html)
+8. [State Management](https://en.wikipedia.org/wiki/State_management)
+	* [Pinia](https://pinia.vuejs.org/introduction.html)
+		* [Defining a Store](https://pinia.vuejs.org/core-concepts)
+			* [State](https://pinia.vuejs.org/core-concepts/state.html)
+			* [Getters](https://pinia.vuejs.org/core-concepts/getters.html)
+			* [Actions](https://pinia.vuejs.org/core-concepts/actions.html)
+	* [Vuex](https://vuex.vuejs.org) 
+
+## MySQL
+* Clients
+	* [HeidiSQL](https://www.heidisql.com)
+	* [MySQL Workbenc](https://www.mysql.com/products/workbench/)
+	* [Navicat](https://www.navicat.com/en/products/navicat-for-mysql)
+	* [Sequal Ace](https://apps.apple.com/us/app/sequel-ace/id1518036000?mt=12)
+	* [Beekeeper Studio](https://www.beekeeperstudio.io)
+* [Statements](https://dev.mysql.com/doc/refman/5.7/en/sql-statements.html)
+	* [SELECT](https://dev.mysql.com/doc/refman/5.7/en/select.html)
+	* [INSERT](https://dev.mysql.com/doc/refman/5.7/en/insert.html)
+	* [UPDATE](https://dev.mysql.com/doc/refman/5.7/en/update.html)
+	* [DELETE](https://dev.mysql.com/doc/refman/5.7/en/delete.html)
+
+## Įvairūs įrankiai
+* [Swagger](https://swagger.io/docs/specification/2-0/what-is-swagger/)
+	* [Swagger Editor](https://swagger.io/tools/swagger-editor)
+	* [Swagger UI](https://swagger.io/tools/swagger-ui/)
+* [Postman](https://www.postman.com)
+
+## Kontaktai
+* [hello@nonamez.name](hello@nonamez.name)
+* [https://t.me/kotoffzky](https://t.me/kotoffzky)
