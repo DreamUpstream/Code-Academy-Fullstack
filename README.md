@@ -1,3 +1,5 @@
+# Ką aš išmokau:
+
 ## PHP
 1. [Docker](https://docs.docker.com)
 2. [Kintamieji](https://www.php.net/manual/en/language.variables.php)
@@ -173,6 +175,3 @@
 	* [Swagger UI](https://swagger.io/tools/swagger-ui/)
 * [Postman](https://www.postman.com)
 
-## Kontaktai
-* [hello@nonamez.name](hello@nonamez.name)
-* [https://t.me/kotoffzky](https://t.me/kotoffzky)
